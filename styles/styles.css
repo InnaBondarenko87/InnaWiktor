@@ -1,0 +1,128 @@
+:root {
+    --black-color: #2c2c2c;
+}
+
+/* Стилі для обнулення верхніх відступів у елементів */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/* Клас для обнулення базових властивостей списків (ul) */
+.list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/* Клас для обнулення базових властивостей у посилань */
+.link {
+    text-decoration: none;
+}
+
+/* Властивості для коректного відображення картинок */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Властивості для обнулення курсиву address */
+address {
+    font-style: normal;
+}
+
+body {
+    /* font-family: 'Inter', sans-serif;
+    font-family: 'Kalam', cursive; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: var(--black);
+}
+
+.container {
+    width: 1280px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+
+/* Favorites */
+.favorites-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+/* /*Зникнення маркерів на сторінці*../images/people-office.jpg/ */
+
+ul,
+lo {
+    list-style-type: none;
+}
+
+.customers-title {
+    padding-top: 100px;
+}
+
+.container-paragrapf {
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+.customers-tetx {
+    margin-top: 28px;
+    margin-bottom: 40px;
+    width: 473px;
+}
+
+.customers-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.customers-menu {
+    display: flex;
+}
+
+.customers-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.customers-icon-star,
+.customers-icon-end {
+    width: 501px;
+}
+
+.customers-container-icon,
+.customers-icon-star,
+.customers-icon-end {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    column-gap: 139px;
+}
+
+/* justify-content: flex-start; 
+} */
+.customers-img {
+    height: 48px;
+    width: 48px;
+}
+
+.icon-stars {
+    width: 101px;
+    height: 16px;
+}
+
+/* .customers{
+max-width:1280px;
+background-image:url(../img/Customers_Say/Rectangle.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+} */
