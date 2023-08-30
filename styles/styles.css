@@ -52,13 +52,26 @@ body {
 }
 
 
+
+
 /* Favorites */
+
 .favorites-menu {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
 }
 /* /*Зникнення маркерів на сторінці*../images/people-office.jpg/ */
+
+
+
+/*Customers*/
+
+
+.customers .customers-container{
+    margin-left: auto;
+    margin-right: auto;
+}
 
 ul,
 lo {
@@ -67,17 +80,58 @@ lo {
 
 .customers-title {
     padding-top: 100px;
+    color: var(--black, #2C2C2C);
+    font-family: Roboto;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.customers-container-icon{
+    padding-bottom: 200px;
 }
 
 .container-paragrapf {
     margin-top: 20px;
     margin-bottom: 32px;
+    color: var(--black, #2C2C2C);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .customers-tetx {
     margin-top: 28px;
     margin-bottom: 40px;
     width: 473px;
+    color: var(--black, #2C2C2C);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.customers-menu-text-up{
+color: var(--black, #2C2C2C);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%;
+/* 21px */
+}
+.customers-menu-text{
+color: var(--black, #2C2C2C);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+/* 21px */
 }
 
 .customers-item {
@@ -120,9 +174,29 @@ lo {
     height: 16px;
 }
 
-/* .customers{
+.customers{
 max-width:1280px;
-background-image:url(../img/Customers_Say/Rectangle.jpg);
+background-image:url(../img/Customers_Say/Rectangleo.jpg);
 background-repeat: no-repeat;
-background-size: cover;
-} */
+background-size: auto;
+/* height 647px; */
+}
+.customers-icon-star{
+    background-image: url(../img/Customers_Say/Rectanglew.jpg);
+    background-size: cover;
+    background-position: 16px 220px;
+    width: 501px;
+    height: 227px;
+    border-radius:0px 30px 30px 30px;
+    padding: 14px;
+}
+
+.customers-icon-end{
+    background-image: url(../img/Customers_Say/Rectanglew.jpg);
+    background-size: cover;
+    background-position: 16px 220px;
+    width: 501px;
+    height: 227px;
+    padding: 14px;
+    border-radius: 0px 30px 30px 30px;
+}
